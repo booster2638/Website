@@ -1,0 +1,1 @@
+Upload index.html, style.css and images/logo.jpg to your GitHub repository root and enable GitHub Pages.
