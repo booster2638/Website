@@ -203,4 +203,21 @@
   renderSponsorNotes();
   renderNews();
   renderBoard();
+
+  const menuToggle = document.querySelector(".menu-toggle");
+  const primaryNav = document.getElementById("primary-nav");
+
+  if (menuToggle && primaryNav) {
+    menuToggle.addEventListener("click", () => {
+      const open = document.body.classList.toggle("menu-open");
+      menuToggle.setAttribute("aria-expanded", String(open));
+      menuToggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+    });
+
+    primaryNav.addEventListener("click", () => {
+      document.body.classList.remove("menu-open");
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.setAttribute("aria-label", "Open navigation");
+    });
+  }
 })();
