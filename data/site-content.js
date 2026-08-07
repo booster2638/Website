@@ -10,7 +10,6 @@ window.siteContent = {
       text: "in the 2026 Regional Championship Pool, placing Team 2638 in the top 3% of FRC teams worldwide."
     },
     highlights: [
-      "FIRST World Championship qualifier in Houston",
       "Excellence in Engineering Award, FIRST Long Island Regional",
       "Excellence in Engineering Award, Rocket City Regional",
       "Rocket City Regional Finalist",
@@ -84,12 +83,12 @@ window.siteContent = {
         text: "Host of The Robotics Social for more than a decade, helping sustain Rebel Robotics year after year."
       },
       {
-        heading: "Additional 2026 Supporters",
+        heading: "With Special Thanks",
         supporters: [
           { name: "Create2Donate" },
           { name: "Galvin Bros., Inc.", url: "https://www.linkedin.com/company/galvin-bros-inc/" }
         ],
-        text: "Create2Donate and Galvin Bros., Inc. came through Rebel Robotics student and alumni connections."
+        text: "We are deeply grateful to Create2Donate and Galvin Bros., Inc., whose support came through Rebel Robotics student and alumni connections. Their generosity helps our students keep building, competing, and growing."
       }
     ]
   },
